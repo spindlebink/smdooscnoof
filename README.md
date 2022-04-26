@@ -10,7 +10,7 @@ Sm'doose k'noof. Smuh-doose-cuh-noof. Four syllables. Like a guy slurring (horri
 
 * `state.lua`: simple state machine w/ fairly robust callbacks
 	```lua
-	local state = require("state.lua"):new()
+	local state = require("state"):new()
 
 	-- called as long as the state is "idle"
 	state.when["idle"] = function(state)
